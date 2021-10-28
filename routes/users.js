@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-values = 0;
+var values = 0;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
